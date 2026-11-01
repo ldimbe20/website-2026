@@ -11,15 +11,15 @@ export const designTypes = [
     usesModal: false,
   },
   {
-    image: "/portfolio/main/packaging-main.png",
+    image: "/portfolio/main/packaging_main.png",
     alt: "Baby Milestone Cards",
     link: "/packaging",
     text: "Packaging",
     usesModal: false,
   },
   {
-    image: "/portfolio/main/butterfly-main.jpg",
-    alt: "Butterfly illustration",
+    image: "/portfolio/main/print_main.png",
+    alt: "Flyers",
     link: "/print",
     text: "Print",
     usesModal: false,
@@ -92,12 +92,26 @@ export const graphics = [
 
 export const print = [
   {
-    image: "/portfolio/block/print/flier-1.jpg",
-    alt: "Instagram ad for Block Aero an aviation company",
+    image: "/portfolio/print/flyers.png",
+    alt: "Flyer for Core Med Science",
     link: "/block",
-    text: "Flyer created for Singapore Airshow",
+    text: "Flyers",
     usesModal: true,
   },
+    {
+    image: "/portfolio/print/giveaway_flyers.png",
+    alt: "Giveaway Flyer",
+    link: "/block",
+    text: "Giveaway Flyer",
+    usesModal: true,
+  },
+    {
+    image: "/portfolio/print/giveaway_2.jpg",
+    alt: "Giveaway Signage",
+    link: "/block",
+    text: "Giveaway Signage",
+    usesModal: true,
+  }
 ];
 
 export const packaging = [
@@ -106,14 +120,6 @@ export const packaging = [
     link: "",
     image: "/portfolio/packaging/Baby Milestone.png",
     text: "Baby Milestone",
-    openNewTab: true,
-    usesModal: true,
-  },
-  {
-    alt: "Baby Shower Memories",
-    link: "",
-    image: "/portfolio/packaging/Baby Shower Memories.png",
-    text: "Baby Shower Memories",
     openNewTab: true,
     usesModal: true,
   },
@@ -186,6 +192,22 @@ export const packaging = [
     link: "",
     image: "/portfolio/clever/Easter.png",
     text: "Easter Gift Bags",
+    openNewTab: true,
+    usesModal: true,
+  },
+    {
+    alt: "Core Med Science Wellness Labels",
+    link: "",
+    image: "/portfolio/packaging/Packaging-Wellness.jpg",
+    text: "Core Med Science Wellness Labels",
+    openNewTab: true,
+    usesModal: true,
+  },
+    {
+    alt: "Core Med Science Performance Labels",
+    link: "",
+    image: "/portfolio/packaging/Packaging-Performance.jpg",
+    text: "Core Med Science Performance Labels",
     openNewTab: true,
     usesModal: true,
   },
